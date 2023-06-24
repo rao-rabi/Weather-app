@@ -3,21 +3,40 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     background-color: black;
 }
 
 .weather-details{
-    margin-top: 150px;
-    background: linear-gradient(rgba(253, 0, 156, 0.3), rgba(0, 183, 255,0.2));
+    margin-top: 50px;
+    background: linear-gradient(to right, rgb(241, 110, 49), rgb(230, 76, 250));
     border-radius: 3%;
     z-index: 2;
-    width: 600px;
+    width: 500px;
     box-shadow: 0 0 20px grey;
     text-align: center;
 }
 
+#input{
+    padding: 3%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: 2px white solid;
+    border-radius: 26px;
+    width: 230px;
+}
+
+#btn-search{
+    background: transparent;
+    padding: 3%;
+    outline: none;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+/* 
 .back-video{
     position: absolute;
     right: 0;
@@ -36,4 +55,4 @@ body{
         width: auto !important;
         height:100% !important;
     }
-}
+} */

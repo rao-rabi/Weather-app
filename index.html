@@ -5,19 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <video autoplay muted loop plays-inline class="back-video" >
+    <!-- <video autoplay muted loop plays-inline class="back-video" >
         <source src="/Digital_Grapes.mp4" type="video/mp4">
-    </video>
+    </video> -->
     <div class="weather-details">
-        <p id="city"></p>
-        <p id="temp"></p>
-        <p id="wind"></p>
-        <p id="desc"></p>
+        <h3 style="color: blueviolet;">Weather App</h3>
+        <div style="display: flex;flex-wrap: nowrap; gap: 5px; justify-content: center;">
+            <input type="text" id="input" placeholder="Enter City Name">
+            <button type="button" id="btn-search" onclick=" clickMe()"><i class="fa-solid fa-magnifying-glass"
+                    style="color: blueviolet; font-size: 20px;"></i></button>
+        </div>
+        <div style="margin: 2%;">
+            <p style="font-size: 50px;" id="city"></p>
+            <p id="temp"></p>
+            <div id="wind" style="display: flex; align-items: center; justify-content: center;">
+            </div>
+            <p id="desc"></p>
+        </div>
+        <h3 style="color: blueviolet;">Designed By Rao Rabi</h3>
     </div>
+
 
     <script src="script.js"></script>
 </body>

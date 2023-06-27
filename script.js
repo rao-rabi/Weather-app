@@ -17,6 +17,9 @@ function clickMe() {
         wind.innerHTML = `<img src="/images/wind.png" width="50px" height="50px">
                         <div style="margin-top:-22px;"><p style="margin-bottom:0px;font-size:38px">${value.wind}</p>
                         <p style="font-size:15px;margin-top:0px;">Wind Speed</p></div>`;
-        desc.innerText = `Weather: ${value.description}`;
+        desc.innerHTML = `<p>Weather: ${value.description}</p>`;
     })
+    // function weatherImg(){
+    //     if(value.description == '')
+    //  }
 }
